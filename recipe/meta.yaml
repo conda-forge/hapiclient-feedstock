@@ -1,5 +1,5 @@
 {% set name = "hapiclient" %}
-{% set version = "0.2.5" %}
+{% set version = "0.2.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hapiclient-{{ version }}.tar.gz
-  sha256: fcdc47c1786ed1a8b6607d137ccff9b85810399f78fbb866e38065ce4a475351
+  sha256: e7993a51815e7447795aff095ccd4d510ef4e0bbc9b9d00ab5bdd1a1000169d1
 
 build:
   noarch: python
